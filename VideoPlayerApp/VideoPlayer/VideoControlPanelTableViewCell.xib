@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="VideoControlPanelTableViewCell" customModule="VideoPlayerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="370-XL-Hgy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fP0-8t-tj0">
+                                <rect key="frame" x="8" y="8" width="70" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="f8u-sp-LYn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="003-F3-TQB">
+                                <rect key="frame" x="84" y="3" width="152" height="31"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="timeSliderValueChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="9AL-ae-SKg"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSE-z2-Hlq">
+                                <rect key="frame" x="242" y="8.5" width="70" height="19.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="xJT-Ge-e7U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6l-IC-Ywf">
+                                <rect key="frame" x="8" y="40.5" width="30" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Hrp-oe-0Fw"/>
+                                    <constraint firstAttribute="width" secondItem="P6l-IC-Ywf" secondAttribute="height" multiplier="1:1" id="JZ6-EB-Amp"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="gobackward.10" catalog="system"/>
+                                <connections>
+                                    <action selector="backwardButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="z4e-82-8Rf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNN-mA-ZWL">
+                                <rect key="frame" x="145" y="42.5" width="30" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="MCl-Uc-E26"/>
+                                    <constraint firstAttribute="width" secondItem="UNN-mA-ZWL" secondAttribute="height" multiplier="1:1" id="kFT-HG-h8n"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="play.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="playButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Gtc-1P-TlL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhN-eW-1gY">
+                                <rect key="frame" x="282" y="40.5" width="30" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="3Bt-Mg-Pg1"/>
+                                    <constraint firstAttribute="width" secondItem="HhN-eW-1gY" secondAttribute="height" multiplier="1:1" id="hwW-5M-ngX"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="goforward.10" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="forwardButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3BU-ff-J6l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.79289740296803646" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fP0-8t-tj0" firstAttribute="top" secondItem="370-XL-Hgy" secondAttribute="top" constant="8" id="1ve-rn-b7Q"/>
+                            <constraint firstItem="ZSE-z2-Hlq" firstAttribute="leading" secondItem="003-F3-TQB" secondAttribute="trailing" constant="8" id="47o-nv-cUg"/>
+                            <constraint firstItem="003-F3-TQB" firstAttribute="centerY" secondItem="fP0-8t-tj0" secondAttribute="centerY" id="7G1-sc-wuf"/>
+                            <constraint firstItem="ZSE-z2-Hlq" firstAttribute="centerY" secondItem="003-F3-TQB" secondAttribute="centerY" id="H8E-hB-muy"/>
+                            <constraint firstItem="UNN-mA-ZWL" firstAttribute="centerX" secondItem="370-XL-Hgy" secondAttribute="centerX" id="RDc-9o-mQr"/>
+                            <constraint firstAttribute="bottom" secondItem="P6l-IC-Ywf" secondAttribute="bottom" constant="8" id="bDp-8o-3eb"/>
+                            <constraint firstItem="fP0-8t-tj0" firstAttribute="leading" secondItem="370-XL-Hgy" secondAttribute="leading" constant="8" id="bdF-1n-3N4"/>
+                            <constraint firstItem="P6l-IC-Ywf" firstAttribute="leading" secondItem="370-XL-Hgy" secondAttribute="leading" constant="8" id="edJ-KL-m6J"/>
+                            <constraint firstItem="UNN-mA-ZWL" firstAttribute="centerY" secondItem="P6l-IC-Ywf" secondAttribute="centerY" id="fJF-Rn-iUb"/>
+                            <constraint firstAttribute="trailing" secondItem="HhN-eW-1gY" secondAttribute="trailing" constant="8" id="ilR-wd-Fdq"/>
+                            <constraint firstItem="003-F3-TQB" firstAttribute="leading" secondItem="fP0-8t-tj0" secondAttribute="trailing" constant="8" id="pNf-Lx-zFN"/>
+                            <constraint firstAttribute="trailing" secondItem="ZSE-z2-Hlq" secondAttribute="trailing" constant="8" id="ppe-sM-G9b"/>
+                            <constraint firstItem="HhN-eW-1gY" firstAttribute="centerY" secondItem="UNN-mA-ZWL" secondAttribute="centerY" id="w1P-ZG-Jgq"/>
+                            <constraint firstAttribute="height" constant="80" id="y4o-56-lCS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="370-XL-Hgy" secondAttribute="trailing" id="1b5-t3-eyy"/>
+                    <constraint firstItem="370-XL-Hgy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6UI-EW-5hq"/>
+                    <constraint firstItem="370-XL-Hgy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Qey-T2-nui"/>
+                    <constraint firstAttribute="bottom" secondItem="370-XL-Hgy" secondAttribute="bottom" id="yOb-lk-YYp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backwardButton" destination="P6l-IC-Ywf" id="pJT-xg-pnE"/>
+                <outlet property="currentTimeLabel" destination="fP0-8t-tj0" id="UGC-ek-TQ8"/>
+                <outlet property="durationLabel" destination="ZSE-z2-Hlq" id="IGH-LW-YzM"/>
+                <outlet property="forwardButton" destination="HhN-eW-1gY" id="gP1-vr-iEf"/>
+                <outlet property="playButton" destination="UNN-mA-ZWL" id="2Ur-54-EVY"/>
+                <outlet property="timeSlider" destination="003-F3-TQB" id="7UU-7K-SFy"/>
+            </connections>
+            <point key="canvasLocation" x="62" y="58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gobackward.10" catalog="system" width="121" height="128"/>
+        <image name="goforward.10" catalog="system" width="121" height="128"/>
+        <image name="play.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

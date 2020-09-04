@@ -1,0 +1,237 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "xU0B8d4oYqgt-Jww1nqsDqk3Eac",
+  "nextPageToken": "CAUQAA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QsFsMZyjqfHD--RE2_kNW4TWpH4",
+      "id": "UExNVXNfQkY5M1Y1WlN3WGdyY0dyZTBhR25nU3lPZnY3eC4wMEMyQTBBOTUwNTM0OUFG",
+      "snippet": {
+        "publishedAt": "2019-10-02T11:39:47Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "超出你想象的深海世界 | 老高與小茉 Mr & Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join\n【出賣靈魂按鈕】https://goo.gl/VhzZeS\n------------------------------------------------\n相關鏈接：\n\n【震撼】2045年，人類究竟是滅絕還是成神\nhttps://www.youtube.com/watch?v=WY4XLDBDyuk\n\n出賣靈魂的正確方法，魔鬼聖經\nhttps://www.youtube.com/watch?v=0vomd4ymSLc\n\n【一個人不要看】至少需要4個人一起看的影片\nhttps://www.youtube.com/watch?v=nAc6sGXLueY\n\n【震撼】地球歷史的最大謎團，大洪水\nhttps://www.youtube.com/watch?v=w69h0zCso-o\n\n人類不能知道的秘密，人族的故事\nhttps://www.youtube.com/watch?v=JVOzntXOGRc\n\n地球監獄說，其實人類的祖先是星際囚犯，咱們都在地球上改造\nhttps://www.youtube.com/watch?v=-WhhhLTH1yk\n\n中國古代全都是外星人，而且和蘇美神話居然是一樣的\nhttps://www.youtube.com/watch?v=nPnNQNCoC9M\n\n生命起源，地球上的生命究竟是如何產生的\nhttps://www.youtube.com/watch?v=bJHhrpYbGgQ\n\n人類史上最強大的武器不是板凳，而是櫃子\nhttps://www.youtube.com/watch?v=I70Vd2IObPQ\n\n量子力學與平行宇宙與你\nhttps://www.youtube.com/watch?v=QcySV8ZKFGg\n\n來自宇宙深處的非自然信號與黑暗森林法則\nhttps://www.youtube.com/watch?v=XASKCBtiqEM\n\n【震撼】舊約聖經中記載的人類起源才是真實的 \nhttps://www.youtube.com/watch?v=iEeBnhMadkk\n\n地平說，為什麼越來越多人相信地球是平的\nhttps://www.youtube.com/watch?v=rDT45Z5Y9e8\n\n數千年前就擁有航天技術的瑪雅文明\nhttps://www.youtube.com/watch?v=EPivRTYUu6w\n\n最強預言家對於2019年的五個預言，前四個都不重要\nhttps://www.youtube.com/watch?v=kIR9bEA_8kE\n\n【震撼】亞特蘭蒂斯真的找到了，神，真的存在過\nhttps://www.youtube.com/watch?v=QbcKVbL3VOQ\n\n火星，越看越像尼比魯\nhttps://www.youtube.com/watch?v=2GU9kis1hDo\n\n100年過去了，還沒有一個地球人能解開這個謎團，伏尼契手稿\nhttps://www.youtube.com/watch?v=DVORkf8OWcc\n\n人類雖然無法再次登上月球，但卻可以登上太陽的真正原因\nhttps://www.youtube.com/watch?v=Ep803Xiso5E\n\n【震撼】距離地球最遙遠的人造物，航海家1號\nhttps://www.youtube.com/watch?v=UZHGEyCYgTc\n\n蘇美王表，一塊石頭揭秘人類誕生的真相\nhttps://www.youtube.com/watch?v=Mw-bAl2Tlm0\n\n科學證明進化論才是都市傳說，人類才是外星人 \nhttps://www.youtube.com/watch?v=BFEakK2FA3s\n\n最接近神的男人，特斯拉\nhttps://www.youtube.com/watch?v=2QlzgZPxg1c\n\n二十世紀最大謎團，通古斯大爆炸\nhttps://www.youtube.com/watch?v=wU-GxHtCGgA\n\n波羅的海下的巨大圓盤，它在這裡14萬年了\nhttps://www.youtube.com/watch?v=QAbx4ruDEm0\n\n曼德拉效應，是誰動了我的記憶\nhttps://www.youtube.com/watch?v=5x9mNMnG9lY\n\n谷歌的時間機器和三個時間旅行者\nhttps://www.youtube.com/watch?v=yDO7oZLpXL0\n------------------------------------------------\n推薦播放列表：\n\n【未來】https://goo.gl/Bq54h5\n\n【傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣】https://goo.gl/Tbpiuj",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dNmwPWRdv_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dNmwPWRdv_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dNmwPWRdv_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dNmwPWRdv_0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dNmwPWRdv_0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5ZSwXgrcGre0aGngSyOfv7x",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dNmwPWRdv_0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "aBbRFq5_aixzkke9gCJmKYYmeDY",
+      "id": "UExNVXNfQkY5M1Y1WlN3WGdyY0dyZTBhR25nU3lPZnY3eC41MzJFNEYxODEyNzA0QUUx",
+      "snippet": {
+        "publishedAt": "2019-09-04T11:12:05Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "人為什麼是人，人類最不可思議的六個特征 | 老高與小茉 Mr & Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join\n【出賣靈魂按鈕】https://goo.gl/VhzZeS\n------------------------------------------------\n相關鏈接：\n\n【震撼】2045年，人類究竟是滅絕還是成神\nhttps://www.youtube.com/watch?v=WY4XLDBDyuk\n\n出賣靈魂的正確方法，魔鬼聖經\nhttps://www.youtube.com/watch?v=0vomd4ymSLc\n\n【一個人不要看】至少需要4個人一起看的影片\nhttps://www.youtube.com/watch?v=nAc6sGXLueY\n\n【震撼】地球歷史的最大謎團，大洪水\nhttps://www.youtube.com/watch?v=w69h0zCso-o\n\n人類不能知道的秘密，人族的故事\nhttps://www.youtube.com/watch?v=JVOzntXOGRc\n\n地球監獄說，其實人類的祖先是星際囚犯，咱們都在地球上改造\nhttps://www.youtube.com/watch?v=-WhhhLTH1yk\n\n中國古代全都是外星人，而且和蘇美神話居然是一樣的\nhttps://www.youtube.com/watch?v=nPnNQNCoC9M\n\n生命起源，地球上的生命究竟是如何產生的\nhttps://www.youtube.com/watch?v=bJHhrpYbGgQ\n\n人類史上最強大的武器不是板凳，而是櫃子\nhttps://www.youtube.com/watch?v=I70Vd2IObPQ\n\n量子力學與平行宇宙與你\nhttps://www.youtube.com/watch?v=QcySV8ZKFGg\n\n來自宇宙深處的非自然信號與黑暗森林法則\nhttps://www.youtube.com/watch?v=XASKCBtiqEM\n\n【震撼】舊約聖經中記載的人類起源才是真實的 \nhttps://www.youtube.com/watch?v=iEeBnhMadkk\n\n地平說，為什麼越來越多人相信地球是平的\nhttps://www.youtube.com/watch?v=rDT45Z5Y9e8\n\n數千年前就擁有航天技術的瑪雅文明\nhttps://www.youtube.com/watch?v=EPivRTYUu6w\n\n最強預言家對於2019年的五個預言，前四個都不重要\nhttps://www.youtube.com/watch?v=kIR9bEA_8kE\n\n【震撼】亞特蘭蒂斯真的找到了，神，真的存在過\nhttps://www.youtube.com/watch?v=QbcKVbL3VOQ\n\n火星，越看越像尼比魯\nhttps://www.youtube.com/watch?v=2GU9kis1hDo\n\n100年過去了，還沒有一個地球人能解開這個謎團，伏尼契手稿\nhttps://www.youtube.com/watch?v=DVORkf8OWcc\n\n人類雖然無法再次登上月球，但卻可以登上太陽的真正原因\nhttps://www.youtube.com/watch?v=Ep803Xiso5E\n\n【震撼】距離地球最遙遠的人造物，航海家1號\nhttps://www.youtube.com/watch?v=UZHGEyCYgTc\n\n蘇美王表，一塊石頭揭秘人類誕生的真相\nhttps://www.youtube.com/watch?v=Mw-bAl2Tlm0\n\n科學證明進化論才是都市傳說，人類才是外星人 \nhttps://www.youtube.com/watch?v=BFEakK2FA3s\n\n最接近神的男人，特斯拉\nhttps://www.youtube.com/watch?v=2QlzgZPxg1c\n\n二十世紀最大謎團，通古斯大爆炸\nhttps://www.youtube.com/watch?v=wU-GxHtCGgA\n\n波羅的海下的巨大圓盤，它在這裡14萬年了\nhttps://www.youtube.com/watch?v=QAbx4ruDEm0\n\n曼德拉效應，是誰動了我的記憶\nhttps://www.youtube.com/watch?v=5x9mNMnG9lY\n\n谷歌的時間機器和三個時間旅行者\nhttps://www.youtube.com/watch?v=yDO7oZLpXL0\n------------------------------------------------\n推薦播放列表：\n\n【未來】https://goo.gl/Bq54h5\n\n【傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣】https://goo.gl/Tbpiuj",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EiWuajug1W4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EiWuajug1W4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EiWuajug1W4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EiWuajug1W4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EiWuajug1W4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5ZSwXgrcGre0aGngSyOfv7x",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EiWuajug1W4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1Uk078q4dAPKBQ1jb2yuKvA7Bpc",
+      "id": "UExNVXNfQkY5M1Y1WlN3WGdyY0dyZTBhR25nU3lPZnY3eC5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2018-09-05T07:47:42Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "人類不能再次登上月球的真正原因真是難以置信 | 老高與小茉 Mr & Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join\n【出賣靈魂按鈕】https://goo.gl/VhzZeS\n\n距離人類第一次登月已經過去了近五十年的時間，即使科技飛速發展的今天，人類仍然沒有能夠再次登上月球，究竟是什麼原因呢？\n有人說人類登月本身就是一個謊言，有人說月球背面有外星人所以為了和平不能再登，有人說登月費用是在太高，真正的原因在這裡。\n------------------------------------------------\n相關鏈接：\n【阿波羅計劃】\nhttps://zh.wikipedia.org/wiki/%E9%98%BF%E6%B3%A2%E7%BD%97%E8%AE%A1%E5%88%92\n\n【阿波羅11號】\nhttps://zh.wikipedia.org/wiki/%E9%98%BF%E6%B3%A2%E7%BD%9711%E5%8F%B7\n\n【阿波羅17號】\nhttps://en.wikipedia.org/wiki/Apollo_17\n\n【月球雷射測距實驗】\nhttps://zh.wikipedia.org/wiki/%E6%9C%88%E7%90%83%E6%BF%80%E5%85%89%E6%B5%8B%E8%B7%9D%E5%AE%9E%E9%AA%8C\n\n【月球表面照片】\nhttps://www.nasa.gov/mission_pages/LRO/news/apollo-sites.html\n\n【月球背面】\nhttps://zh.wikipedia.org/wiki/%E6%9C%88%E7%90%83%E8%83%8C%E9%9D%A2\n\n【登月VR動畫】\nhttps://www.youtube.com/watch?v=v6aVSIH4DwI\n\n【史丹利·庫柏力克】\nhttps://zh.wikipedia.org/zh-tw/%E6%96%AF%E5%9D%A6%E5%88%A9%C2%B7%E5%BA%93%E5%B8%83%E9%87%8C%E5%85%8B\n\n【最著名的超能力人】\nhttps://en.wikipedia.org/wiki/Ingo_Swann\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5ZSwXgrcGre0aGngSyOfv7x",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "2vzwtqhhJv8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hnn7-qKX4xNI0bO1bTg2cqn_-F4",
+      "id": "UExNVXNfQkY5M1Y1WlN3WGdyY0dyZTBhR25nU3lPZnY3eC5BRUVCN0E0MzEwQzAwNjMy",
+      "snippet": {
+        "publishedAt": "2019-08-21T13:22:25Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【震撼】這是一部解開所有宇宙之謎的影片 | 老高與小茉 Mr & Mrs Gao",
+        "description": "今天這一個影片，解答了所有未解之謎，時間旅行，大洪水，諾亞方舟，宇宙起源，月球誕生，地獄是什麼，亞特蘭蒂斯，恐龍之謎，生命起源等。\n【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join\n【出賣靈魂按鈕】https://goo.gl/VhzZeS\n------------------------------------------------\n相關鏈接：\n\n【震撼】2045年，人類究竟是滅絕還是成神\nhttps://www.youtube.com/watch?v=WY4XLDBDyuk\n\n出賣靈魂的正確方法，魔鬼聖經\nhttps://www.youtube.com/watch?v=0vomd4ymSLc\n\n【一個人不要看】至少需要4個人一起看的影片\nhttps://www.youtube.com/watch?v=nAc6sGXLueY\n\n【震撼】地球歷史的最大謎團，大洪水\nhttps://www.youtube.com/watch?v=w69h0zCso-o\n\n人類不能知道的秘密，人族的故事\nhttps://www.youtube.com/watch?v=JVOzntXOGRc\n\n地球監獄說，其實人類的祖先是星際囚犯，咱們都在地球上改造\nhttps://www.youtube.com/watch?v=-WhhhLTH1yk\n\n中國古代全都是外星人，而且和蘇美神話居然是一樣的\nhttps://www.youtube.com/watch?v=nPnNQNCoC9M\n\n生命起源，地球上的生命究竟是如何產生的\nhttps://www.youtube.com/watch?v=bJHhrpYbGgQ\n\n人類史上最強大的武器不是板凳，而是櫃子\nhttps://www.youtube.com/watch?v=I70Vd2IObPQ\n\n量子力學與平行宇宙與你\nhttps://www.youtube.com/watch?v=QcySV8ZKFGg\n\n來自宇宙深處的非自然信號與黑暗森林法則\nhttps://www.youtube.com/watch?v=XASKCBtiqEM\n\n【震撼】舊約聖經中記載的人類起源才是真實的 \nhttps://www.youtube.com/watch?v=iEeBnhMadkk\n\n地平說，為什麼越來越多人相信地球是平的\nhttps://www.youtube.com/watch?v=rDT45Z5Y9e8\n\n數千年前就擁有航天技術的瑪雅文明\nhttps://www.youtube.com/watch?v=EPivRTYUu6w\n\n最強預言家對於2019年的五個預言，前四個都不重要\nhttps://www.youtube.com/watch?v=kIR9bEA_8kE\n\n【震撼】亞特蘭蒂斯真的找到了，神，真的存在過\nhttps://www.youtube.com/watch?v=QbcKVbL3VOQ\n\n火星，越看越像尼比魯\nhttps://www.youtube.com/watch?v=2GU9kis1hDo\n\n100年過去了，還沒有一個地球人能解開這個謎團，伏尼契手稿\nhttps://www.youtube.com/watch?v=DVORkf8OWcc\n\n人類雖然無法再次登上月球，但卻可以登上太陽的真正原因\nhttps://www.youtube.com/watch?v=Ep803Xiso5E\n\n【震撼】距離地球最遙遠的人造物，航海家1號\nhttps://www.youtube.com/watch?v=UZHGEyCYgTc\n\n蘇美王表，一塊石頭揭秘人類誕生的真相\nhttps://www.youtube.com/watch?v=Mw-bAl2Tlm0\n\n科學證明進化論才是都市傳說，人類才是外星人 \nhttps://www.youtube.com/watch?v=BFEakK2FA3s\n\n最接近神的男人，特斯拉\nhttps://www.youtube.com/watch?v=2QlzgZPxg1c\n\n二十世紀最大謎團，通古斯大爆炸\nhttps://www.youtube.com/watch?v=wU-GxHtCGgA\n\n波羅的海下的巨大圓盤，它在這裡14萬年了\nhttps://www.youtube.com/watch?v=QAbx4ruDEm0\n\n曼德拉效應，是誰動了我的記憶\nhttps://www.youtube.com/watch?v=5x9mNMnG9lY\n\n谷歌的時間機器和三個時間旅行者\nhttps://www.youtube.com/watch?v=yDO7oZLpXL0\n------------------------------------------------\n推薦播放列表：\n\n【未來】https://goo.gl/Bq54h5\n\n【傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣】https://goo.gl/Tbpiuj",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3QS5hyXpNyw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3QS5hyXpNyw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3QS5hyXpNyw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3QS5hyXpNyw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3QS5hyXpNyw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5ZSwXgrcGre0aGngSyOfv7x",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3QS5hyXpNyw"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xM1eNSIecHhhywXUgoVGv387h0w",
+      "id": "UExNVXNfQkY5M1Y1WlN3WGdyY0dyZTBhR25nU3lPZnY3eC4xNTZBNUQxMDZBQzFGMjkw",
+      "snippet": {
+        "publishedAt": "2019-04-07T13:28:22Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【震撼】2045年，人類究竟是滅絕還是成神 | 老高與小茉 Mr & Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join\n【出賣靈魂按鈕】https://goo.gl/VhzZeS\n------------------------------------------------\n相關鏈接：\n\n出賣靈魂的正確方法，魔鬼聖經\nhttps://www.youtube.com/watch?v=0vomd4ymSLc\n\n【一個人不要看】至少需要4個人一起看的影片\nhttps://www.youtube.com/watch?v=nAc6sGXLueY\n\n【震撼】地球歷史的最大謎團，大洪水\nhttps://www.youtube.com/watch?v=w69h0zCso-o\n\n人類不能知道的秘密，人族的故事\nhttps://www.youtube.com/watch?v=JVOzntXOGRc\n\n地球監獄說，其實人類的祖先是星際囚犯，咱們都在地球上改造\nhttps://www.youtube.com/watch?v=-WhhhLTH1yk\n\n中國古代全都是外星人，而且和蘇美神話居然是一樣的\nhttps://www.youtube.com/watch?v=nPnNQNCoC9M\n\n生命起源，地球上的生命究竟是如何產生的\nhttps://www.youtube.com/watch?v=bJHhrpYbGgQ\n\n人類史上最強大的武器不是板凳，而是櫃子\nhttps://www.youtube.com/watch?v=I70Vd2IObPQ\n\n量子力學與平行宇宙與你\nhttps://www.youtube.com/watch?v=QcySV8ZKFGg\n\n來自宇宙深處的非自然信號與黑暗森林法則\nhttps://www.youtube.com/watch?v=XASKCBtiqEM\n\n【震撼】舊約聖經中記載的人類起源才是真實的 \nhttps://www.youtube.com/watch?v=iEeBnhMadkk\n\n地平說，為什麼越來越多人相信地球是平的\nhttps://www.youtube.com/watch?v=rDT45Z5Y9e8\n\n數千年前就擁有航天技術的瑪雅文明\nhttps://www.youtube.com/watch?v=EPivRTYUu6w\n\n最強預言家對於2019年的五個預言，前四個都不重要\nhttps://www.youtube.com/watch?v=kIR9bEA_8kE\n\n【震撼】亞特蘭蒂斯真的找到了，神，真的存在過\nhttps://www.youtube.com/watch?v=QbcKVbL3VOQ\n\n火星，越看越像尼比魯\nhttps://www.youtube.com/watch?v=2GU9kis1hDo\n\n100年過去了，還沒有一個地球人能解開這個謎團，伏尼契手稿\nhttps://www.youtube.com/watch?v=DVORkf8OWcc\n\n人類雖然無法再次登上月球，但卻可以登上太陽的真正原因\nhttps://www.youtube.com/watch?v=Ep803Xiso5E\n\n【震撼】距離地球最遙遠的人造物，航海家1號\nhttps://www.youtube.com/watch?v=UZHGEyCYgTc\n\n蘇美王表，一塊石頭揭秘人類誕生的真相\nhttps://www.youtube.com/watch?v=Mw-bAl2Tlm0\n\n科學證明進化論才是都市傳說，人類才是外星人 \nhttps://www.youtube.com/watch?v=BFEakK2FA3s\n\n最接近神的男人，特斯拉\nhttps://www.youtube.com/watch?v=2QlzgZPxg1c\n\n二十世紀最大謎團，通古斯大爆炸\nhttps://www.youtube.com/watch?v=wU-GxHtCGgA\n\n波羅的海下的巨大圓盤，它在這裡14萬年了\nhttps://www.youtube.com/watch?v=QAbx4ruDEm0\n\n曼德拉效應，是誰動了我的記憶\nhttps://www.youtube.com/watch?v=5x9mNMnG9lY\n\n谷歌的時間機器和三個時間旅行者\nhttps://www.youtube.com/watch?v=yDO7oZLpXL0\n------------------------------------------------\n推薦播放列表：\n\n【未來】https://goo.gl/Bq54h5\n\n【傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣】https://goo.gl/Tbpiuj",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WY4XLDBDyuk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WY4XLDBDyuk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WY4XLDBDyuk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WY4XLDBDyuk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WY4XLDBDyuk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5ZSwXgrcGre0aGngSyOfv7x",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "WY4XLDBDyuk"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 134,
+    "resultsPerPage": 5
+  }
+}
+

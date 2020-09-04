@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeTopicCollectionViewCell" customModule="VideoPlayerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="360"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="360"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2v-Ux-DgM">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="360"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJK-Xz-hCa">
+                                <rect key="frame" x="0.0" y="0.0" width="360" height="1"/>
+                                <color key="backgroundColor" white="0.25061536815068491" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Fno-dH-C2o"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HQk-lG-UEI">
+                                <rect key="frame" x="8" y="29.5" width="225" height="89.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="新遊戲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muQ-Ht-Jbs">
+                                        <rect key="frame" x="0.0" y="0.0" width="61.5" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.85538622359154926" green="0.43290602992957744" blue="0.02027398767605634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="深海水族館極地" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ur-rj-hFE">
+                                        <rect key="frame" x="0.0" y="28" width="212.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="點點注入空氣 豐富海洋世界" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-Ff-xZV">
+                                        <rect key="frame" x="0.0" y="68" width="225" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bzE-ZS-tFm">
+                                <rect key="frame" x="0.0" y="135" width="360" height="225"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bzE-ZS-tFm" secondAttribute="height" multiplier="16:10" id="mxx-hJ-1km"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5K-J1-CHr">
+                                <rect key="frame" x="0.0" y="0.0" width="360" height="360"/>
+                                <connections>
+                                    <action selector="cellButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Z40-fd-o6e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bzE-ZS-tFm" secondAttribute="bottom" id="548-vx-jYb"/>
+                            <constraint firstAttribute="trailing" secondItem="bzE-ZS-tFm" secondAttribute="trailing" id="Eaz-dk-G69"/>
+                            <constraint firstItem="LJK-Xz-hCa" firstAttribute="top" secondItem="s2v-Ux-DgM" secondAttribute="top" id="MHk-7O-GLe"/>
+                            <constraint firstItem="u5K-J1-CHr" firstAttribute="height" secondItem="s2v-Ux-DgM" secondAttribute="height" id="USg-fX-IOl"/>
+                            <constraint firstItem="bzE-ZS-tFm" firstAttribute="top" secondItem="HQk-lG-UEI" secondAttribute="bottom" constant="16" id="YzO-9C-8Af"/>
+                            <constraint firstItem="bzE-ZS-tFm" firstAttribute="leading" secondItem="s2v-Ux-DgM" secondAttribute="leading" id="Z2g-xQ-s2u"/>
+                            <constraint firstItem="u5K-J1-CHr" firstAttribute="width" secondItem="s2v-Ux-DgM" secondAttribute="width" id="aXc-o2-U9m"/>
+                            <constraint firstItem="u5K-J1-CHr" firstAttribute="centerX" secondItem="s2v-Ux-DgM" secondAttribute="centerX" id="aZd-1g-lRI"/>
+                            <constraint firstItem="LJK-Xz-hCa" firstAttribute="leading" secondItem="s2v-Ux-DgM" secondAttribute="leading" id="agA-kt-COf"/>
+                            <constraint firstItem="HQk-lG-UEI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LJK-Xz-hCa" secondAttribute="bottom" constant="18" id="fyg-J9-m4V"/>
+                            <constraint firstAttribute="trailing" secondItem="LJK-Xz-hCa" secondAttribute="trailing" id="o3h-1J-CQS"/>
+                            <constraint firstItem="u5K-J1-CHr" firstAttribute="centerY" secondItem="s2v-Ux-DgM" secondAttribute="centerY" id="qz5-68-dOC"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HQk-lG-UEI" secondAttribute="trailing" id="s0h-ev-6E3"/>
+                            <constraint firstItem="HQk-lG-UEI" firstAttribute="leading" secondItem="s2v-Ux-DgM" secondAttribute="leading" constant="8" id="xOx-i5-A8Q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="s2v-Ux-DgM" secondAttribute="bottom" id="GC5-8R-d6G"/>
+                <constraint firstAttribute="trailing" secondItem="s2v-Ux-DgM" secondAttribute="trailing" id="kTb-gP-5BP"/>
+                <constraint firstItem="s2v-Ux-DgM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="seB-ao-lTg"/>
+                <constraint firstItem="s2v-Ux-DgM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xW2-tH-gTG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="238" height="210"/>
+            <connections>
+                <outlet property="categoryLabel" destination="muQ-Ht-Jbs" id="LI4-o2-5i6"/>
+                <outlet property="coverImageView" destination="bzE-ZS-tFm" id="Ggo-2b-UCm"/>
+                <outlet property="sloganLabel" destination="1GU-Ff-xZV" id="cit-EN-gco"/>
+                <outlet property="titleLabel" destination="9Ur-rj-hFE" id="LBo-zr-7uJ"/>
+            </connections>
+            <point key="canvasLocation" x="90.579710144927546" y="92.410714285714278"/>
+        </collectionViewCell>
+    </objects>
+</document>

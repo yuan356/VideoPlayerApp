@@ -1,0 +1,143 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "UzWzyyYhSM6nniyYElvqb2vyJy4",
+  "prevPageToken": "CJYBEAE",
+  "regionCode": "TW",
+  "pageInfo": {
+    "totalResults": 180,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3Z-qx3k2ZrUi9o3UEZfOmUBlSMA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pxSGX_gSm7U"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-06T07:00:03Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【閱覽注意】谷歌地圖拍到真實女鬼！五個讓你不敢相信自己眼睛的谷歌坐標  | 老高與小茉 Mr &amp; Mrs Gao",
+        "description": "谷歌地圖上總是有一些讓人覺得詭異的地方，今天就為大家推薦五個谷歌地圖上可以輕鬆找到的神秘又恐怖的地方。你覺得第一名是哪個呢？",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pxSGX_gSm7U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pxSGX_gSm7U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pxSGX_gSm7U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-06T07:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WgHecxhzXDDUUhu8gpNI3vzT06w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2vzwtqhhJv8"
+      },
+      "snippet": {
+        "publishedAt": "2018-09-05T08:00:00Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "人類不能再次登上月球的真正原因真是難以置信 | 老高與小茉 Mr &amp; Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join 【出賣靈魂按鈕】https://goo.gl/VhzZeS 距離人類第一次登月已經過去了近 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2vzwtqhhJv8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-09-05T08:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m8YOtYSwUJi7npg6tPUWN0YdH_c",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ"
+      },
+      "snippet": {
+        "publishedAt": "2014-11-18T04:25:23Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "老高與小茉 Mr & Mrs Gao",
+        "description": "大家好！這裡是【老高與小茉Mr & Mrs Gao】頻道。 在這個頻道里我們會定期更新有趣的影片，希望大家能夠喜歡。 不要忘記訂閱我們哦！ 一會兒影片里見咯！",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-LCctJ8x7oko/AAAAAAAAAAI/AAAAAAAAAAA/KeqmyL7APaY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-LCctJ8x7oko/AAAAAAAAAAI/AAAAAAAAAAA/KeqmyL7APaY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-LCctJ8x7oko/AAAAAAAAAAI/AAAAAAAAAAA/KeqmyL7APaY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2014-11-18T04:25:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GdQjyNZqsWd4qzTrgHA6rL4bCjw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KefYmjM0E7g"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-02T12:00:11Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "老高講電影，這是一部豆瓣評分9.3分的好片 | 老高與小茉 Mr &amp; Mrs Gao",
+        "description": "【加入會員按鈕】https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ/join 【出賣靈魂按鈕】https://goo.gl/VhzZeS ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KefYmjM0E7g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KefYmjM0E7g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KefYmjM0E7g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-02T12:00:11Z"
+      }
+    }
+  ]
+}
+

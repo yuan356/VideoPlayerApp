@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VideoIframeViewController" customModule="VideoPlayerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="XMx-1V-c6O" id="J03-bo-TON"/>
+                <outlet property="tableView" destination="rvI-yp-CSc" id="2oS-cU-O2Y"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="1U6-xe-b9n" id="Bdi-zn-Cbr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLQ-cH-GYG">
+                    <rect key="frame" x="0.0" y="44" width="414" height="233"/>
+                    <subviews>
+                        <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1U6-xe-b9n" customClass="VPWKWebView" customModule="VideoPlayerApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                            <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <wkWebViewConfiguration key="configuration">
+                                <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                <wkPreferences key="preferences"/>
+                            </wkWebViewConfiguration>
+                        </wkWebView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMx-1V-c6O">
+                            <rect key="frame" x="8" y="8.5" width="30" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="XMx-1V-c6O" secondAttribute="height" multiplier="1:1" id="A2o-Nc-zbQ"/>
+                                <constraint firstAttribute="height" constant="30" id="XcL-Ja-bB1"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" backgroundImage="xmark.circle" catalog="system">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="closeBtnClicked:" destination="-1" eventType="touchUpInside" id="drK-xY-0cd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="1U6-xe-b9n" secondAttribute="bottom" id="GEg-wn-iFX"/>
+                        <constraint firstAttribute="trailing" secondItem="1U6-xe-b9n" secondAttribute="trailing" id="PW4-aX-sW4"/>
+                        <constraint firstAttribute="width" secondItem="DLQ-cH-GYG" secondAttribute="height" multiplier="16:9" id="Rdj-NI-kEI"/>
+                        <constraint firstItem="1U6-xe-b9n" firstAttribute="leading" secondItem="DLQ-cH-GYG" secondAttribute="leading" id="egd-Ug-hvh"/>
+                        <constraint firstItem="1U6-xe-b9n" firstAttribute="top" secondItem="DLQ-cH-GYG" secondAttribute="top" id="jF1-jx-Tj2"/>
+                        <constraint firstItem="XMx-1V-c6O" firstAttribute="leading" secondItem="1U6-xe-b9n" secondAttribute="leading" constant="8" id="wKA-6G-QX9"/>
+                        <constraint firstItem="XMx-1V-c6O" firstAttribute="top" secondItem="1U6-xe-b9n" secondAttribute="top" constant="8" id="zVE-FL-RGw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q9r-7u-WWT">
+                    <rect key="frame" x="0.0" y="277" width="414" height="585"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rvI-yp-CSc">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="585"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="rvI-yp-CSc" firstAttribute="height" secondItem="q9r-7u-WWT" secondAttribute="height" id="GFQ-wb-e3X"/>
+                        <constraint firstItem="rvI-yp-CSc" firstAttribute="centerX" secondItem="q9r-7u-WWT" secondAttribute="centerX" id="LKw-xu-jxf"/>
+                        <constraint firstItem="rvI-yp-CSc" firstAttribute="width" secondItem="q9r-7u-WWT" secondAttribute="width" id="k0j-0t-wh1"/>
+                        <constraint firstItem="rvI-yp-CSc" firstAttribute="centerY" secondItem="q9r-7u-WWT" secondAttribute="centerY" id="uu1-4l-8fz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DLQ-cH-GYG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="88r-2W-HF0"/>
+                <constraint firstItem="q9r-7u-WWT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Map-lc-lsU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DLQ-cH-GYG" secondAttribute="trailing" id="Vze-DS-sLA"/>
+                <constraint firstItem="q9r-7u-WWT" firstAttribute="top" secondItem="DLQ-cH-GYG" secondAttribute="bottom" id="aG7-g7-UJz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="q9r-7u-WWT" secondAttribute="bottom" id="mX4-JU-zHh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="q9r-7u-WWT" secondAttribute="trailing" id="rU9-Ak-Oze"/>
+                <constraint firstItem="DLQ-cH-GYG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="vYf-Ob-Gee"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

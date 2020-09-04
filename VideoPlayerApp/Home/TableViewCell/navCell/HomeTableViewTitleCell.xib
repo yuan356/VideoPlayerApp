@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="73" id="KGk-i7-Jjw" customClass="HomeTableViewTitleCell" customModule="VideoPlayerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ca-vT-cvi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXU-gW-Pas">
+                                <rect key="frame" x="15" y="4" width="111" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S99-gp-JhD">
+                                <rect key="frame" x="255" y="8.5" width="57" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S99-gp-JhD" secondAttribute="height" id="bgY-F5-65a"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="person.circle" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fXU-gW-Pas" secondAttribute="bottom" constant="4" id="B65-bC-CdI"/>
+                            <constraint firstItem="S99-gp-JhD" firstAttribute="top" secondItem="6Ca-vT-cvi" secondAttribute="top" constant="8" id="Lf2-qP-dTF"/>
+                            <constraint firstAttribute="bottom" secondItem="S99-gp-JhD" secondAttribute="bottom" constant="8" id="OdM-R6-h0m"/>
+                            <constraint firstItem="fXU-gW-Pas" firstAttribute="leading" secondItem="6Ca-vT-cvi" secondAttribute="leading" constant="15" id="bTn-I8-XqC"/>
+                            <constraint firstAttribute="trailing" secondItem="S99-gp-JhD" secondAttribute="trailing" constant="8" id="nV7-F4-Szl"/>
+                            <constraint firstItem="fXU-gW-Pas" firstAttribute="top" secondItem="6Ca-vT-cvi" secondAttribute="top" constant="4" id="ovx-QN-dha"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6Ca-vT-cvi" secondAttribute="bottom" id="All-yt-TZ6"/>
+                    <constraint firstItem="6Ca-vT-cvi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="TGr-HM-Ycy"/>
+                    <constraint firstAttribute="trailing" secondItem="6Ca-vT-cvi" secondAttribute="trailing" id="ako-h3-MTE"/>
+                    <constraint firstItem="6Ca-vT-cvi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tpZ-iv-unV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="137.68115942028987" y="106.80803571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

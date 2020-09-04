@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="VideoPlayerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="navView" destination="RBP-0O-bc8" id="BMb-X4-mVn"/>
+                <outlet property="tableView" destination="8M2-Cw-Gr6" id="PdB-8l-ll9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8M2-Cw-Gr6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBP-0O-bc8" userLabel="Nav View">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XF4-Z5-ZSx">
+                            <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W14-cq-lkt">
+                                    <rect key="frame" x="183.5" y="8" width="47.5" height="44"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="W14-cq-lkt" secondAttribute="bottom" constant="8" id="PC1-7A-3FO"/>
+                                <constraint firstItem="W14-cq-lkt" firstAttribute="top" secondItem="XF4-Z5-ZSx" secondAttribute="top" constant="8" id="bDD-sb-uGD"/>
+                                <constraint firstItem="W14-cq-lkt" firstAttribute="centerX" secondItem="XF4-Z5-ZSx" secondAttribute="centerX" id="l9W-69-yQP"/>
+                                <constraint firstAttribute="height" constant="60" id="ytW-SQ-sl9"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.69382702464788737" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="XF4-Z5-ZSx" firstAttribute="leading" secondItem="RBP-0O-bc8" secondAttribute="leading" id="5xF-wX-Y1A"/>
+                        <constraint firstAttribute="trailing" secondItem="XF4-Z5-ZSx" secondAttribute="trailing" id="dme-J3-5YC"/>
+                        <constraint firstAttribute="bottom" secondItem="XF4-Z5-ZSx" secondAttribute="bottom" id="kRv-q7-hiu"/>
+                        <constraint firstAttribute="height" constant="104" id="yk0-U0-0w2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8M2-Cw-Gr6" secondAttribute="bottom" constant="-34" id="1BR-Ru-2a5"/>
+                <constraint firstItem="RBP-0O-bc8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4vx-hb-Fko"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8M2-Cw-Gr6" secondAttribute="trailing" id="ADL-BP-7QX"/>
+                <constraint firstItem="8M2-Cw-Gr6" firstAttribute="top" secondItem="RBP-0O-bc8" secondAttribute="top" id="JXX-OH-VaY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RBP-0O-bc8" secondAttribute="trailing" id="Znp-5a-7D8"/>
+                <constraint firstItem="8M2-Cw-Gr6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="syD-FZ-HgR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="RBP-0O-bc8" secondAttribute="top" constant="44" id="xRq-4x-gC4"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="137"/>
+        </view>
+    </objects>
+</document>

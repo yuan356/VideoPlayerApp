@@ -1,0 +1,237 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "U4cWimwBddLpOcmgsd186c9kpRI",
+  "nextPageToken": "CAUQAA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3REwx9TKGQ-XjrMbw7A8yyckcpg",
+      "id": "UExNVXNfQkY5M1Y1YXFmb0dBSTVKaDA1eXNjbUtlZ04wVi41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2018-06-09T06:09:21Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【都市傳說】一張“暗黑地圖”揭開你所不知道的世界，還有你知道LINE“已讀”功能的真正作用嗎？ | 老高與小茉 Mr & Mrs Gao",
+        "description": "今年3月份的時候一張黑色的地圖引發了全日本網民的關注，這張地圖上的幾條亮線向人們訴說著一個可怕的故事。雖然一切都是推測，都是都市傳說，但你確定你了解這個世界嗎？\n順便問一下，大家知道LINE這個APP里的“已讀”功能有什麼用嗎？\n可能你非常討厭這個功能，但其實ta有一個非常重要的作用，你猜到了嗎？\n------------------------------------------------\n相關鏈接：\n【東日本大地震震源地谷歌地圖】\nhttps://www.google.com/maps/d/u/0/viewer?ll=38.29855900000001%2C141.82250999999997&spn=2.586512%2C5.482178&t=m&msa=0&z=7&source=embed&ie=UTF8&brcurrent=3%2C0x60229b5fd61b9511%3A0x1cb677dbffe07bbe%2C0&mid=1jULimVTNnaCurnNQb3jrMyFuZ-Y\n\n【STRAVA全球熱區圖】https://www.strava.com/heatmap#5.46/132.80669/30.93775/hot/all\n\n【日本網友熱議的原貼】\nhttp://hawk.5ch.net/test/read.cgi/livejupiter/1517313590/\n\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。\n\n【訂閱按鈕】https://goo.gl/VhzZeS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HPUt8Z1E4KI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HPUt8Z1E4KI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HPUt8Z1E4KI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HPUt8Z1E4KI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HPUt8Z1E4KI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5aqfoGAI5Jh05yscmKegN0V",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HPUt8Z1E4KI"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "peJRYlROYGx0j47-gVST8NSKJIA",
+      "id": "UExNVXNfQkY5M1Y1YXFmb0dBSTVKaDA1eXNjbUtlZ04wVi45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2018-06-12T06:57:56Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【都市傳說】兩個未來人的預言實在太準太可怕 | 老高與小茉 Mr & Mrs Gao",
+        "description": "你相信時間機器的存在嗎？你知道你的周圍就有來自未來的人嗎？如果你不認識未來人，老高今天給你介紹兩個，他們分別來自於2062年和2075年，這兩個人都因準確預測未來而被相信是真的未來人。當然有些事情不信為好。\n順便問大家一下，如果真的有時間機器，你會想去到或者回到什麼時候呢？\n------------------------------------------------\n相關鏈接：\n\n【YJ的推特】https://twitter.com/YJ943636\n\n【2062代言人的主頁】http://2062.jp/\n\n【2062的2010年和2011年的留言】http://from2062.com\n\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。\n\n【訂閱按鈕】https://goo.gl/VhzZeS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jeqH4eMGjhY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jeqH4eMGjhY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jeqH4eMGjhY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jeqH4eMGjhY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jeqH4eMGjhY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5aqfoGAI5Jh05yscmKegN0V",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jeqH4eMGjhY"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "zGP81RjGAJM5ruN84e7uWMYHHF0",
+      "id": "UExNVXNfQkY5M1Y1YXFmb0dBSTVKaDA1eXNjbUtlZ04wVi5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2018-06-18T08:46:53Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "三個不為人知的恐怖職業實在太可怕，哪一個我也不敢做 | 老高與小茉 Mr & Mrs Gao",
+        "description": "今天給大家介紹三個傳說中的職業，這些職業不是一般人可以承受的，要麼需要非常的膽量，要麼能夠忍受常人所不能忍，所以據說有的收入非常高。當然，如果你覺得自己膽子很大，忍耐力很強，又很想賺錢，不妨應征一下，說不定可以賺得鍋滿盆滿呢？\n好吧，就算你覺得自己可以勝任這些工作，也不代表他們真的會聘用你，因為招收員工的條件還是很獨特的哦，看看你符合幾個吧？\n------------------------------------------------\n相關鏈接：\n\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。\n\n【訂閱按鈕】https://goo.gl/VhzZeS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UQogJmVzIeA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UQogJmVzIeA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UQogJmVzIeA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UQogJmVzIeA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UQogJmVzIeA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5aqfoGAI5Jh05yscmKegN0V",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UQogJmVzIeA"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dW73x2_dXeBwp_vOyhgo6-q13M8",
+      "id": "UExNVXNfQkY5M1Y1YXFmb0dBSTVKaDA1eXNjbUtlZ04wVi5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2018-07-06T10:33:50Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "世界上唯一一個仍然在使用魔法的國家 | 老高與小茉 Mr & Mrs Gao",
+        "description": "日本可能是目前世界上為一個仍然在使用魔法治理國家的地方。東京結界是怎麼回事？日本三大怨靈又是誰？日本為什麼這麼多神社，這都和日本的魔法有關，今天帶大家見識一下不一樣的日本，魔法世界里的日本。\n------------------------------------------------\n相關鏈接：\n【平將門】https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%B0%87%E9%96%80\n\n【日本三大怨靈】https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%A4%A7%E6%80%A8%E9%9C%8A\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。\n\n【訂閱按鈕】https://goo.gl/VhzZeS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_HZHXVqhayc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_HZHXVqhayc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_HZHXVqhayc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_HZHXVqhayc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_HZHXVqhayc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5aqfoGAI5Jh05yscmKegN0V",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_HZHXVqhayc"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KN-lmBA3OFq9yJn_gebhWvingZ8",
+      "id": "UExNVXNfQkY5M1Y1YXFmb0dBSTVKaDA1eXNjbUtlZ04wVi41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2018-07-09T10:47:40Z",
+        "channelId": "UCMUnInmOkrWN4gof9KlhNmQ",
+        "title": "【完美犯罪】僅僅20分鐘，11萬個嫌疑人，50年的追查 | 老高與小茉 Mr & Mrs Gao",
+        "description": "今天為大家介紹日本歷史上最有名的一個案件，此案是日本歷史上金額最大的完美犯罪。在光天化日之下，一個人在不使用暴力的情況下，用不到20分鐘劫走三億日元，并瞬間人間蒸發，至今沒有抓到嫌疑犯，也沒有人能夠出合理的解釋。日本警方找到120多件證物，列出了11萬人的嫌疑人名單，找了足足50年，都沒有能夠找到。你能給我們一個合理的推測嗎？\n------------------------------------------------\n相關鏈接：\n\n【相關電影預告片】 https://www.youtube.com/watch?v=Hf7nfD45MbI\n\n------------------------------------------------\n推薦播放列表：\n\n【恐怖靈異】https://goo.gl/Bq54h5\n\n【都市傳說】https://goo.gl/CpmK2Y\n\n【心理測試】https://goo.gl/wf5dp5\n\n【奇趣世界】https://goo.gl/Tbpiuj\n\n------------------------------------------------\n如果喜歡我們的頻道不要忘記訂閱哦，我們會每天更新有趣的內容。\n\n【訂閱按鈕】https://goo.gl/VhzZeS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/14vc9_2BGoU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/14vc9_2BGoU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/14vc9_2BGoU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/14vc9_2BGoU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/14vc9_2BGoU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "老高與小茉 Mr & Mrs Gao",
+        "playlistId": "PLMUs_BF93V5aqfoGAI5Jh05yscmKegN0V",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "14vc9_2BGoU"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 145,
+    "resultsPerPage": 5
+  }
+}
+
