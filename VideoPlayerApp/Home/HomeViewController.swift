@@ -57,7 +57,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         showNavBar(show: false, animate: false)
        
         // Get topic data
-        if let url = URL(string: "http://127.0.0.1:5500/topicVideos.json") {
+        //if let url = URL(string: "http://127.0.0.1:5500/topicVideos.json") {
+        if let url = Bundle.main.url(forResource: "topicVideos", withExtension: "json") {
             ModelService.shared.getJsonData(url: url) { (json) in
                 if let jsonObj = json as? [String: [String]], let topicsVideoIds = jsonObj["topics"] {
                     if let topicVideos = ModelService.shared.videoService?.getVideosById(ids: topicsVideoIds) {

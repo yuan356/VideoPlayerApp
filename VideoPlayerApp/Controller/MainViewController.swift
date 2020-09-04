@@ -16,8 +16,8 @@ class MainViewController: UIViewController, VPtabViewControllerDelegate {
     @IBOutlet weak var tabBarView: UIView!
     
     var tabViewController = VPtabViewController(pages: [
-        ViewControllerPage(name: "home", identifier: "home"),
-        ViewControllerPage(name: "setting", identifier: "setting")
+        ViewControllerPage(name: "Home", identifier: "Home"),
+        ViewControllerPage(name: "Setting", identifier: "Setting")
     ])
     var currentRootViewController: UIViewController?
     
@@ -30,7 +30,7 @@ class MainViewController: UIViewController, VPtabViewControllerDelegate {
         
         addBlurEffectViewToTabViewContainer()
 
-        switchPage(identifier: "home")
+        switchPage(identifier: "Home")
     }
     
     func addViewControllerToContainerView(containerView: UIView, controller: UIViewController) {
@@ -51,9 +51,9 @@ class MainViewController: UIViewController, VPtabViewControllerDelegate {
         var controller: UIViewController?
         
         switch identifier {
-        case "home":
+        case "Home":
             controller = HomeViewController()
-        case "setting":
+        case "Setting":
             controller = SettingViewController()
         default:
             break

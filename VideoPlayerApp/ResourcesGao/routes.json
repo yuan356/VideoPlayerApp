@@ -1,10 +1,10 @@
 {
     "youtube" : {
         "videos" : {
-            "index" : "http://127.0.0.1:5500/videos/videos.json"
+            "index" : "videos"
         },
         "playlists" : {
-            "index" : "http://127.0.0.1:5500/playlists/playlists.json"
+            "index" : "playlists"
         }
     }
 }

@@ -25,7 +25,8 @@ class ModelService: HttpService {
     
     func loadRoutes(completionHandler: @escaping () -> Void) {
         
-        if let url = URL(string: "http://127.0.0.1:5500/routes.json") {
+        //if let url = URL(string: "http://127.0.0.1:5500/routes.json") {
+        if let url = Bundle.main.url(forResource: "routes", withExtension: "json") {
             self.getJsonData(url: url) { (json) in
                 if let jsonObj = json as? [String: Any] {
                     self.route = Route(jsonObj)
@@ -38,11 +39,11 @@ class ModelService: HttpService {
     
     private func initServices() {
         if let route = self.route {
-            if let videoUrl = route.videoIndexUrl {
-                self.videoService = VideoService(indexUrl: videoUrl )
+            if let videoStr = route.videoIndexStr, let videoUrl = Bundle.main.url(forResource: videoStr, withExtension: "json") {
+                self.videoService = VideoService(indexUrl: videoUrl)
             }
             
-            if let playlistUrl = route.playlistIndexUrl  {
+            if let playlistStr = route.playlistIndexStr, let playlistUrl = Bundle.main.url(forResource: playlistStr, withExtension: "json")  {
                 self.playlistService = PlaylistService(indexUrl: playlistUrl )
             }
         }

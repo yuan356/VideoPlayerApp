@@ -32,6 +32,14 @@ class Route {
         return getUrlOrNil(url: self.playlists?["index"])
     }
     
+    var videoIndexStr: String? {
+        return self.videos?["index"]
+    }
+    
+    var playlistIndexStr: String? {
+        return self.playlists?["index"]
+    }
+    
     private func getUrlOrNil(url: String?) -> URL? {
         if let url = url {
             return URL(string: url)

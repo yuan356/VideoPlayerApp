@@ -58,8 +58,6 @@ class VideoIframeViewController: UIViewController, UITableViewDataSource, UITabl
                     cell.playButton.setBackgroundImage(UIImage(systemName: "pause.circle"), for: .normal)
                 }
                 closeButtonHideOrShow(hide: true)
-            default:
-                break
             }
         }
     }

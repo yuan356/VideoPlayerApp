@@ -144,13 +144,13 @@
 		1C8C8186250205350099093B /* VideoPlayerApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C8C81A72502056F0099093B /* ResourcesGao */,
+				1C8C81B62502056F0099093B /* VideoPlayer */,
 				1C8C819B2502056F0099093B /* Controller */,
 				1C8C81BD250205700099093B /* Home */,
 				1C8C81CE250205700099093B /* Model */,
-				1C8C81A72502056F0099093B /* ResourcesGao */,
 				1C8C81A22502056F0099093B /* Services */,
 				1C8C81D4250205700099093B /* StoryBoard */,
-				1C8C81B62502056F0099093B /* VideoPlayer */,
 				1C8C8187250205350099093B /* AppDelegate.swift */,
 				1C8C8189250205350099093B /* SceneDelegate.swift */,
 				1C8C8190250205370099093B /* Assets.xcassets */,
@@ -162,12 +162,12 @@
 		1C8C819B2502056F0099093B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C819C2502056F0099093B /* SettingViewController.swift */,
 				1C8C819D2502056F0099093B /* IntroLoadingViewController.swift */,
 				1C8C819E2502056F0099093B /* MainViewController.swift */,
+				1C8C819C2502056F0099093B /* SettingViewController.swift */,
 				1C8C819F2502056F0099093B /* SettingViewController.xib */,
-				1C8C81A02502056F0099093B /* VPtabViewController.xib */,
 				1C8C81A12502056F0099093B /* VPtabViewController.swift */,
+				1C8C81A02502056F0099093B /* VPtabViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,11 +209,11 @@
 		1C8C81AE2502056F0099093B /* videos */ = {
 			isa = PBXGroup;
 			children = (
+				1C8C81B32502056F0099093B /* page1.json */,
 				1C8C81AF2502056F0099093B /* page2.json */,
 				1C8C81B02502056F0099093B /* page3.json */,
 				1C8C81B12502056F0099093B /* page4.json */,
 				1C8C81B22502056F0099093B /* videos.json */,
-				1C8C81B32502056F0099093B /* page1.json */,
 			);
 			path = videos;
 			sourceTree = "<group>";
@@ -234,8 +234,8 @@
 		1C8C81BD250205700099093B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C81BE250205700099093B /* HomeViewController.xib */,
 				1C8C81BF250205700099093B /* HomeViewController.swift */,
+				1C8C81BE250205700099093B /* HomeViewController.xib */,
 				1C8C81C0250205700099093B /* TableViewCell */,
 			);
 			path = Home;
@@ -244,9 +244,9 @@
 		1C8C81C0250205700099093B /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C81C1250205700099093B /* Playlists */,
-				1C8C81C6250205700099093B /* Topic */,
 				1C8C81CB250205700099093B /* navCell */,
+				1C8C81C6250205700099093B /* Topic */,
+				1C8C81C1250205700099093B /* Playlists */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -265,10 +265,10 @@
 		1C8C81C6250205700099093B /* Topic */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C81C7250205700099093B /* HomeTopicCollectionViewCell.xib */,
-				1C8C81C8250205700099093B /* HomeTopicTableViewCell.xib */,
 				1C8C81C9250205700099093B /* HomeTopicTableViewCell.swift */,
+				1C8C81C8250205700099093B /* HomeTopicTableViewCell.xib */,
 				1C8C81CA250205700099093B /* HomeTopicCollectionViewCell.swift */,
+				1C8C81C7250205700099093B /* HomeTopicCollectionViewCell.xib */,
 			);
 			path = Topic;
 			sourceTree = "<group>";
@@ -297,8 +297,8 @@
 		1C8C81D4250205700099093B /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C81D5250205700099093B /* LaunchScreen.storyboard */,
 				1C8C81D7250205700099093B /* Main.storyboard */,
+				1C8C81D5250205700099093B /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -565,6 +565,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N45U64W34;
 				INFOPLIST_FILE = VideoPlayerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -582,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N45U64W34;
 				INFOPLIST_FILE = VideoPlayerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

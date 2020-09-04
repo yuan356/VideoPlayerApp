@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -16,10 +16,10 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9i8-XR-6Ew">
-                        <rect key="frame" x="0.0" y="0.0" width="381" height="405"/>
+                        <rect key="frame" x="0.0" y="0.0" width="381" height="360"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qe3-rg-fJR">
-                                <rect key="frame" x="0.0" y="0.0" width="381" height="405"/>
+                                <rect key="frame" x="0.0" y="0.0" width="381" height="360"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DVI-DI-42j">
                                     <size key="itemSize" width="225" height="225"/>
@@ -33,7 +33,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Qe3-rg-fJR" secondAttribute="trailing" id="Bde-Dv-K6P"/>
                             <constraint firstAttribute="bottom" secondItem="Qe3-rg-fJR" secondAttribute="bottom" id="WoE-h9-mCd"/>
-                            <constraint firstAttribute="height" constant="405" id="cNA-5e-tEu"/>
+                            <constraint firstAttribute="height" constant="360" id="cNA-5e-tEu"/>
                             <constraint firstItem="Qe3-rg-fJR" firstAttribute="leading" secondItem="9i8-XR-6Ew" secondAttribute="leading" id="kJM-fY-Q9I"/>
                             <constraint firstItem="Qe3-rg-fJR" firstAttribute="top" secondItem="9i8-XR-6Ew" secondAttribute="top" id="kcX-Sk-rYy"/>
                         </constraints>

@@ -38,7 +38,7 @@ class HomeTopicTableViewCell: UITableViewCell, UICollectionViewDelegate, UIColle
         
         var width = UIScreen.main.bounds.width
         let height = self.collectionView.frame.height
-        if width > height {
+        if width > height + 200 {
             width /= 2
         }
         
@@ -62,7 +62,6 @@ class HomeTopicTableViewCell: UITableViewCell, UICollectionViewDelegate, UIColle
             let video = self.topics[indexPath.row]
             cell.titleLabel.text = video.title
             cell.sloganLabel.text = video.description
-            cell.categoryLabel.text = video.id
             cell.identifier = video.id
             
             let thread = Thread {

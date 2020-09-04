@@ -81,7 +81,7 @@ class VPtabViewController: UIViewController {
             NSLayoutConstraint(item: button, attribute: .top, relatedBy: .greaterThanOrEqual, toItem: self.view, attribute: .top, multiplier: 1, constant: 0),
             // Bottom
             NSLayoutConstraint(item: button, attribute: .bottom, relatedBy: .greaterThanOrEqual, toItem: self.view,
-                               attribute: .bottom, multiplier: 1, constant: 0)
+                               attribute: .bottom, multiplier: 1, constant: -8)
         ])
         
         if let lastButton = lastView {

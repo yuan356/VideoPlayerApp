@@ -133,8 +133,6 @@ class HomePlaylistItemCollectionViewCell: UICollectionViewCell {
                 if let video = video3 {
                     self.delegate?.playVideo(video: video)
                 }
-            default:
-                break
             }
         }
     }

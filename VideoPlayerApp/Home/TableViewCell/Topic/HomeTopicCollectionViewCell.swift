@@ -15,8 +15,7 @@ protocol HomeTopicCollectionViewCellDelegate: AnyObject {
 class HomeTopicCollectionViewCell: UICollectionViewCell {
     
     weak var delegate: HomeTopicCollectionViewCellDelegate?
-    
-    @IBOutlet weak var categoryLabel: UILabel!
+
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var sloganLabel: UILabel!
     

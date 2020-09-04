@@ -24,7 +24,8 @@ class VideoService: HttpService {
         self.getJsonData(url: self.indexUrl) { (json) in
             if let data = json as? [String: Any], let strPages = data["pages"] as? [String] {
                 self.pages = strPages.compactMap { (str) -> URL? in
-                    return URL(string: str)
+                    //return URL(string: str)
+                    return Bundle.main.url(forResource: str, withExtension: "json")
                 }
                 completionHandler()
             }

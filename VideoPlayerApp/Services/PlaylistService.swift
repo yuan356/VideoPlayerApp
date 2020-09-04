@@ -38,7 +38,8 @@ class PlaylistService: HttpService {
     
     func loadAllData(completionHandler: @escaping () -> Void) {
         for playlist in self.cache.values {
-            if let url = URL(string: "http://127.0.0.1:5500/playlists/\(playlist.id).json") {
+            //if let url = URL(string: "http://127.0.0.1:5500/playlists/\(playlist.id).json") {
+            if let url = Bundle.main.url(forResource: "\(playlist.id)", withExtension: "json") {
                 self.getJsonData(url: url) { (json) in
                     if let data = json as? [String: Any], let items = data["items"] as? [[String: Any]] {
                         let videos = items.compactMap { (item) -> Video? in
